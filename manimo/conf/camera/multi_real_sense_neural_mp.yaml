@@ -12,9 +12,9 @@ cam1:
       enabled: True
       frames: 60
     intrinsics: [[387.59545898, 0., 323.97320557], [0., 387.59545898, 242.47912598], [0., 0., 1.]]
-    mv_shift: [-0.013, 0.025, -0.01]
-    workspace_min: [0.12, -0.7, -0.3]
-    workspace_max: [1.0, 0.7, 1.0]
+    mv_shift: [-0.018, -0.005, -0.04]
+    workspace_min: [0.12, -0.5, -0.3]
+    workspace_max: [1.0, 0.5, 1.0]
 
 cam2:
   _target_: manimo.sensors.real_sense_camera.RealSenseCam
@@ -30,9 +30,9 @@ cam2:
       enabled: True
       frames: 60
     intrinsics: [[390.51275635, 0., 325.16949463], [0., 390.51275635, 238.4041748], [0., 0., 1.]]
-    mv_shift: [-0.013, 0.025, -0.01]
-    workspace_min: [0.12, -0.7, -0.3]
-    workspace_max: [1.0, 0.7, 1.0]
+    mv_shift: [-0.018, -0.005, -0.04]
+    workspace_min: [0.12, -0.5, -0.3]
+    workspace_max: [1.0, 0.5, 1.0]
 
 cam3:
   _target_: manimo.sensors.real_sense_camera.RealSenseCam
@@ -41,16 +41,16 @@ cam3:
     img_height: 480
     hz: 30
     name: "cam3"
-    device_id: "031222070082"
+    device_id: "048122070002"
     buffer_size: 1
     window_dur: null  # number of seconds to track in buffer
     warm_start:
       enabled: True
       frames: 60
-    intrinsics: [[379.79257202, 0., 325.35546875], [0., 379.79257202, 237.10147095], [0., 0., 1.]]
-    mv_shift: [-0.013, 0.025, -0.01]
-    workspace_min: [0.12, -0.7, -0.3]
-    workspace_max: [1.0, 0.7, 1.0]
+    intrinsics: [[384.60351562, 0., 323.32571411], [0., 384.60351562, 237.19238281], [0., 0., 1.]]
+    mv_shift: [0.017, 0.005, -0.04]
+    workspace_min: [0.12, -0.5, -0.3]
+    workspace_max: [1.0, 0.5, 1.0]
 
 cam4:
   _target_: manimo.sensors.real_sense_camera.RealSenseCam
@@ -59,13 +59,13 @@ cam4:
     img_height: 480
     hz: 30
     name: "cam4"
-    device_id: "102422076289"
+    device_id: "918512072392"
     buffer_size: 1
     window_dur: null  # number of seconds to track in buffer
     warm_start:
       enabled: True
       frames: 60
-    intrinsics: [[385.46884155, 0., 324.0869751], [0., 385.46884155, 233.60623169], [0., 0., 1.]]
-    mv_shift: [-0.013, 0.025, -0.01]
-    workspace_min: [0.12, -0.7, -0.3]
-    workspace_max: [1.0, 0.7, 1.0]
+    intrinsics: [[379.11224365, 0., 323.80651855], [0., 379.11224365, 241.79902649], [0., 0., 1.]]
+    mv_shift: [0.017, 0.005, -0.04]
+    workspace_min: [0.12, -0.5, -0.3]
+    workspace_max: [1.0, 0.5, 1.0]
