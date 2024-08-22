@@ -264,7 +264,7 @@ class FrankaArm(Arm):
 
         if self.action_space == ActionSpace.Cartesian:
             if self.ik_mode == IKMode.Polymetis:
-                desired_joint_action, ee_pos_desired, ee_quat_desired = self._apply_eef_commands(action)
+                desired_joint_action, ee_pos_desired, ee_quat_desired = self._apply_eef_commands_osc(action)
 
             elif self.ik_mode == IKMode.DMControl:
                 ee_pos_current, ee_quat_current = self.robot.get_ee_pose()
